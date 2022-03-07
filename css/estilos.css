@@ -39,7 +39,6 @@ h1,h2,h3{
 /* Tamaño de los títulos principales*/
 h1{font-size: 3.5rem;}
 
-
 /* Quitamos la decoración por defecto de los enlaces para que no estén subrayados, 
 y le decimos que el borde y padding se incluya en la caja y no modique el ancho para después hacer 
 hover en los enlaces y que no deforme los tamaños*/
@@ -57,6 +56,7 @@ a.boton, input.boton{
 	border-radius: 10px;
 	-webkit-transition: background 2s; /* Safari */
     transition: background 0.5s;
+
 }
 
 /* Efecto hover al pasar el ratón por encima, cambiamos el fondo. */
@@ -122,11 +122,11 @@ nav ul li a:hover, .actual{border-bottom: solid 3px #FFE000;}
 /* Destacado **********************************************/
 
 .index h2{
-	margin: 0;
+	margin-bottom: 20px;
 	font-size: 2rem;
 	font-weight: lighter;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 /* Destacado fijamos un ancho para que se ajuste a nuestro grid elegido y  alineamos al centro*/
@@ -155,14 +155,13 @@ a través de motores de busquedas. */
 	font-family: 'Lato' , sans-serif;
 	font-weight: lighter;
 	padding-right: 60px;
-	margin-bottom: 30px;
+
 }
 
 /* Cambiamos el Subitutlo indicado, ya que el tamaño 
 es mayor al de los subtitulos creados para todo el inicio*/
 .inicioDestacado h2{
 	font-size: 3rem;
-	margin: 0;
 	padding-right: 60px;
 	text-align: left;
 }
