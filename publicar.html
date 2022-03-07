@@ -25,6 +25,7 @@
 			<h1>O2: despositar un documento</h1>
 			<p>Los campos marcados con * son obligatorios</p>
 			<form>
+
 				<h2>Datos de la publicación</h2>
 
 				<label>Comunidad donde debe publicarse *</label>
@@ -109,7 +110,7 @@
 				<label for="nombre-completo">Nombre y apellidos *</label>
 				<input type="text" name="nombre-completo" id="nombre-completo" placeholder="Escribe el nombre completo">
 
-				<div class="radio">
+				<fieldset class="radio">
 					<p>Por favor selecciones una de las dos opciones siguientes: </p>
 					<div>
 						<input type="radio" name="genero" id="hombre" value="hombre" >
@@ -119,8 +120,8 @@
 						<input type="radio" name="genero" id="mujer" value="mujer" >
 						<label for="mujer">Mujer</label>
 					</div>
-				</div>
-				<div class="radio">
+				</fieldset>
+				<fieldset class="radio">
 					<p>Tipo de documento de indentidad </p>
 					<div>
 						<input type="radio" name="documento" id="nif" value="nif" >
@@ -134,7 +135,7 @@
 						<input type="radio" name="documento" id="pass" value="pass" >
 						<label for="pass">PASS</label>
 					</div>
-				</div>
+				</fieldset>
 
 				<label for="numero-documento">Número de documento *</label>
 				<input type="text" name="numero-documento" id="numero-documento" placeholder="Escribe el número de documento elegido" required pattern="[A-Za-z]+" minlength="2" maxlength="128">
@@ -168,7 +169,7 @@
 					<label for="ser-informado">Dese ser informado sobre las nuevas incorporaciones al repositorio</label>
 				</div>
 
-				<input type="submit" name="enviar" class="boton">
+				<input type="submit" value="submit" role="button" name="enviar" class="boton">
 			</form>
 
 		</section>
