@@ -238,6 +238,11 @@ Separamos los li con un margen superior.*/
 	font-weight: bold;
 }
 
+/* Añadimos un interlineado correcto a los parrafos */
+p {
+	line-height: 1.5;
+}
+
 
 /*******************
     Publicar
